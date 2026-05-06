@@ -1,0 +1,4 @@
+s000_r01/locomo_multihop/lm_g01_q0004
+s000_r01/locomo_multihop/lm_g01_q0005
+s000_r01/locomo_multihop/lm_g02_q0004
+s000_r01/locomo_multihop/lm_g02_q0006

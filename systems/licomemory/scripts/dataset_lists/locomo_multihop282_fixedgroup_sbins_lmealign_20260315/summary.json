@@ -1,0 +1,309 @@
+{
+  "src_root": "${LOCOMO_SOURCE_ROOT}",
+  "manifest": "${LOCOMO_SOURCE_MANIFEST}",
+  "external_filler_root": "${LICOMEMORY_LONGMEMEVAL_SOURCE_ROOT}",
+  "out_data_root": "${LICOMEMORY_LOCOMO_DATA_ROOT}",
+  "out_list_root": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315",
+  "memory_unit": "group",
+  "noise_mode": "outdomain_longmemeval",
+  "alignment_target": "longmemeval_fixed2k",
+  "question_type": "locomo-multi-hop",
+  "bins": [
+    0,
+    100,
+    200,
+    300,
+    400
+  ],
+  "replicas": 1,
+  "batch_size": 50,
+  "smoke_size": 20,
+  "seed": 20260312,
+  "groups": 10,
+  "questions": 282,
+  "total_stage_items": 1410,
+  "group_validation": {
+    "group_1": {
+      "questions": 32,
+      "native_session_count": 19,
+      "corpus_signature": "74e2aad91e2dfd8c6610263add4971e1da1058964390b850e9a5301d67033bcb",
+      "representative_rel_path": "locomo_multihop/lm_g01_q0004"
+    },
+    "group_2": {
+      "questions": 11,
+      "native_session_count": 19,
+      "corpus_signature": "2f6303308d629d8f99292c1d3da1a2983235c97a7f3b444310d8b856b4d5ed9e",
+      "representative_rel_path": "locomo_multihop/lm_g02_q0004"
+    },
+    "group_3": {
+      "questions": 31,
+      "native_session_count": 32,
+      "corpus_signature": "b754c7f80e2812f451524c5a0c9c1c20f64db0273a1dd49d37c2708dc8e3e70b",
+      "representative_rel_path": "locomo_multihop/lm_g03_q0003"
+    },
+    "group_4": {
+      "questions": 37,
+      "native_session_count": 29,
+      "corpus_signature": "d2b2a6243d8b758ffe0264f3c3ad95e86ba6d259664186d987ed5bf5e76bc686",
+      "representative_rel_path": "locomo_multihop/lm_g04_q0002"
+    },
+    "group_5": {
+      "questions": 31,
+      "native_session_count": 29,
+      "corpus_signature": "fe64785322a0642be2a77610c6239c81bf987cc257e310810fc809eaa292f8c3",
+      "representative_rel_path": "locomo_multihop/lm_g05_q0001"
+    },
+    "group_6": {
+      "questions": 30,
+      "native_session_count": 28,
+      "corpus_signature": "3d2b9abb146847dfa04ad1ad11b9d6c8c5fb7a258ea99a6c288840201cfebf0e",
+      "representative_rel_path": "locomo_multihop/lm_g06_q0003"
+    },
+    "group_7": {
+      "questions": 20,
+      "native_session_count": 31,
+      "corpus_signature": "001ab2c9574d170f1399fa58c0466f90fad2d2021a244e065c12c0a560b381ff",
+      "representative_rel_path": "locomo_multihop/lm_g07_q0003"
+    },
+    "group_8": {
+      "questions": 21,
+      "native_session_count": 30,
+      "corpus_signature": "6609068d1bfc0fd544b66030649f0826866bdf829e99110b390017ec26d85501",
+      "representative_rel_path": "locomo_multihop/lm_g08_q0002"
+    },
+    "group_9": {
+      "questions": 37,
+      "native_session_count": 25,
+      "corpus_signature": "20c815e2fb4f1c8c4247c0baa14890d474033b0c7f53b0a9b9a10f7d81dd92be",
+      "representative_rel_path": "locomo_multihop/lm_g09_q0001"
+    },
+    "group_10": {
+      "questions": 32,
+      "native_session_count": 30,
+      "corpus_signature": "8578469324d9512f551c174c47f009230f5c42c23a84ce575b3e4d34272f4cc9",
+      "representative_rel_path": "locomo_multihop/lm_g10_q0002"
+    }
+  },
+  "external_pool_summary": {
+    "external_root": "${LICOMEMORY_LONGMEMEVAL_SOURCE_ROOT}",
+    "corpus_files": 66,
+    "unique_external_sessions": 30763,
+    "per_task_unique_sessions": {
+      "longmem_ssa": 8026,
+      "longmem_ssp": 6987,
+      "longmem_ssu": 7815,
+      "longmem_tr": 7935
+    }
+  },
+  "corpus_materialization": {
+    "question_corpus_hardlink": 1410,
+    "shared_corpus_files": 50
+  },
+  "stages": {
+    "s000_r01": {
+      "items": 282,
+      "representatives": 10,
+      "ordered_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_all.txt",
+      "representative_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_representatives.txt",
+      "smoke_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_smoke20.txt",
+      "batch_count": 6,
+      "batches": [
+        {
+          "batch_index": 1,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_batch01_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 2,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_batch02_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 3,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_batch03_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 4,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_batch04_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 5,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_batch05_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 6,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s000_r01_batch06_50.txt",
+          "size": 32
+        }
+      ],
+      "manifest": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/manifest_by_stage/s000_r01.jsonl"
+    },
+    "s100_r01": {
+      "items": 282,
+      "representatives": 10,
+      "ordered_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_all.txt",
+      "representative_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_representatives.txt",
+      "smoke_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_smoke20.txt",
+      "batch_count": 6,
+      "batches": [
+        {
+          "batch_index": 1,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_batch01_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 2,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_batch02_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 3,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_batch03_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 4,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_batch04_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 5,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_batch05_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 6,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s100_r01_batch06_50.txt",
+          "size": 32
+        }
+      ],
+      "manifest": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/manifest_by_stage/s100_r01.jsonl"
+    },
+    "s200_r01": {
+      "items": 282,
+      "representatives": 10,
+      "ordered_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_all.txt",
+      "representative_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_representatives.txt",
+      "smoke_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_smoke20.txt",
+      "batch_count": 6,
+      "batches": [
+        {
+          "batch_index": 1,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_batch01_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 2,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_batch02_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 3,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_batch03_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 4,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_batch04_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 5,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_batch05_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 6,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s200_r01_batch06_50.txt",
+          "size": 32
+        }
+      ],
+      "manifest": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/manifest_by_stage/s200_r01.jsonl"
+    },
+    "s300_r01": {
+      "items": 282,
+      "representatives": 10,
+      "ordered_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_all.txt",
+      "representative_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_representatives.txt",
+      "smoke_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_smoke20.txt",
+      "batch_count": 6,
+      "batches": [
+        {
+          "batch_index": 1,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_batch01_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 2,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_batch02_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 3,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_batch03_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 4,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_batch04_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 5,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_batch05_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 6,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s300_r01_batch06_50.txt",
+          "size": 32
+        }
+      ],
+      "manifest": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/manifest_by_stage/s300_r01.jsonl"
+    },
+    "s400_r01": {
+      "items": 282,
+      "representatives": 10,
+      "ordered_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_all.txt",
+      "representative_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_representatives.txt",
+      "smoke_list": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_smoke20.txt",
+      "batch_count": 6,
+      "batches": [
+        {
+          "batch_index": 1,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_batch01_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 2,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_batch02_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 3,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_batch03_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 4,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_batch04_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 5,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_batch05_50.txt",
+          "size": 50
+        },
+        {
+          "batch_index": 6,
+          "path": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/s400_r01_batch06_50.txt",
+          "size": 32
+        }
+      ],
+      "manifest": "systems/licomemory/scripts/dataset_lists/locomo_multihop282_fixedgroup_sbins_lmealign_20260315/manifest_by_stage/s400_r01.jsonl"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+index_name: dynamic_memory_graph
+data_type: LongmemEval
+data_root: ${LICOMEMORY_LONGMEMEVAL_DATA_ROOT}
+dataset_name: ''
+working_dir: ${LICOMEMORY_WORKING_DIR:-systems/licomemory}
+embedding:
+  api_type: openai
+  api_key: ${OPENAI_API_KEY}
+  base_url: ${OPENAI_BASE_URL}
+  model: text-embedding-3-small
+llm:
+  api_type: openai
+  model: gpt-5-mini
+  base_url: ${OPENAI_BASE_URL}
+  api_key: ${OPENAI_API_KEY}
+  max_token: 1024
+  temperature: 0.0
+  enable_concurrent: true
+  max_concurrent: 1
+  timeout: 300
+  retry_attempts: 20
+  retry_backoff: 1.5
+  retry_backoff_max: 120.0
+  fail_on_error: true
+query_llm:
+  api_type: openai
+  base_url: ${OPENAI_BASE_URL}
+  model: gpt-5-mini
+  api_key: ${OPENAI_API_KEY}
+  max_token: 128
+  temperature: 0.0
+  timeout: 300
+  retry_attempts: 20
+  retry_backoff: 1.5
+  retry_backoff_max: 120.0
+  fail_on_error: true
+evaluation:
+  enable_llm_eval: true
+  eval_model: gpt-4o-mini
+  eval_prompt_style: memos_json
+  eval_num_runs: 3
+  eval_temperature: 0.0
+  eval_max_tokens: 64
+  eval_api_key: ${JUDGE_API_KEY:-${OPENAI_API_KEY}}
+  eval_base_url: ${JUDGE_BASE_URL:-${OPENAI_BASE_URL}}
+  eval_timeout: 0

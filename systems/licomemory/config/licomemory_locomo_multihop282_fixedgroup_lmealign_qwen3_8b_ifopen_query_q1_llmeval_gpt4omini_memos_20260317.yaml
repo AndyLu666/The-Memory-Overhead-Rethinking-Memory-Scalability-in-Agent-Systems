@@ -1,0 +1,93 @@
+index_name: dynamic_memory_graph
+data_type: LOCOMO
+data_root: ${LICOMEMORY_LOCOMO_DATA_ROOT}
+dataset_name: ''
+working_dir: ${LICOMEMORY_WORKING_DIR:-systems/licomemory}
+embedding:
+  api_type: openai
+  api_key: ${OPENAI_API_KEY}
+  base_url: ${OPENAI_BASE_URL}
+  model: text-embedding-3-small
+  cache_dir: ''
+  dimensions: 1024
+  max_token_size: 8102
+  embed_batch_size: 64
+  embedding_func_max_async: 8
+llm:
+  api_type: openai
+  model: Qwen/Qwen3-8B
+  base_url: ${QUERY_BASE_URL}
+  api_key: ${QUERY_API_KEY}
+  max_token: 1024
+  temperature: 0.0
+  enable_concurrent: true
+  max_concurrent: 1
+  timeout: 300
+  retry_attempts: 20
+  retry_backoff: 1.5
+  retry_backoff_max: 120.0
+  fail_on_error: true
+query_llm:
+  api_type: openai
+  base_url: ${QUERY_BASE_URL}
+  model: Qwen/Qwen3-8B
+  api_key: ${QUERY_API_KEY}
+  max_token: 128
+  temperature: 0.0
+  timeout: 300
+  retry_attempts: 20
+  retry_backoff: 1.5
+  retry_backoff_max: 120.0
+  fail_on_error: true
+chunk:
+  chunk_token_size: 1200
+  chunk_overlap_token_size: 100
+  token_model: gpt-4o
+  dialogue_input: true
+graph:
+  graph_type: dynamic_memory
+  force: false
+  add: false
+  entity_merge_threshold: 0.85
+  relationship_merge_threshold: 1
+retriever:
+  top_k: 12
+  top_k_triples: 20
+  top_chunks: 8
+  top_session_ids_limit: 20
+  enable_summary: false
+  top_summary: 0
+  enable_visual: false
+  top_visual: 15
+  enable_full: true
+  enable_sessiontime: true
+  enable_CogniRank: true
+  summary_weight: 0.0
+  rerank_k: 0.5
+  adaptive_entity_top_k: true
+  adaptive_entity_node_threshold_large: 2000
+  adaptive_entity_node_threshold_huge: 5000
+  adaptive_entity_top_k_large_graph: 16
+  adaptive_entity_top_k_huge_graph: 24
+  entity_hop_expansion: 1
+  min_candidate_triples: 20
+  triple_lexical_weight: 0.45
+  triple_answer_session_bonus: 0.22
+  triple_external_session_penalty: 0.06
+  source_prior_hard_task_multiplier: 3.0
+  enable_react_multihop: true
+  react_max_steps: 3
+  react_max_context_triples: 24
+  react_max_context_chunks: 12
+  react_agent_temperature: 0.0
+  react_agent_max_tokens: 512
+evaluation:
+  enable_llm_eval: true
+  eval_model: gpt-4o-mini
+  eval_prompt_style: memos_json
+  eval_num_runs: 3
+  eval_temperature: 0.0
+  eval_max_tokens: 64
+  eval_api_key: ${JUDGE_API_KEY:-${OPENAI_API_KEY}}
+  eval_base_url: ${JUDGE_BASE_URL:-${OPENAI_BASE_URL}}
+  eval_timeout: 0

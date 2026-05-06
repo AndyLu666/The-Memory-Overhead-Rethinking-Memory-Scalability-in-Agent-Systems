@@ -1,0 +1,352 @@
+{
+  "s0": {
+    "tasks": {
+      "longmem_ssp": 500,
+      "longmem_ssu": 500,
+      "longmem_ssa": 500,
+      "longmem_tr": 500
+    },
+    "batches": {
+      "s0_balanced_batch01_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch02_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch03_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch04_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch05_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch06_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch07_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch08_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch09_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch10_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch11_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch12_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch13_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch14_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch15_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch16_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch17_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch18_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch19_100.txt": {
+        "n": 100
+      },
+      "s0_balanced_batch20_100.txt": {
+        "n": 100
+      }
+    }
+  },
+  "s100": {
+    "tasks": {
+      "longmem_ssp": 500,
+      "longmem_ssu": 500,
+      "longmem_ssa": 500,
+      "longmem_tr": 500
+    },
+    "batches": {
+      "s100_balanced_batch01_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch02_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch03_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch04_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch05_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch06_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch07_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch08_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch09_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch10_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch11_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch12_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch13_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch14_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch15_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch16_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch17_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch18_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch19_100.txt": {
+        "n": 100
+      },
+      "s100_balanced_batch20_100.txt": {
+        "n": 100
+      }
+    }
+  },
+  "s200": {
+    "tasks": {
+      "longmem_ssp": 500,
+      "longmem_ssu": 500,
+      "longmem_ssa": 500,
+      "longmem_tr": 500
+    },
+    "batches": {
+      "s200_balanced_batch01_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch02_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch03_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch04_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch05_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch06_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch07_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch08_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch09_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch10_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch11_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch12_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch13_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch14_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch15_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch16_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch17_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch18_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch19_100.txt": {
+        "n": 100
+      },
+      "s200_balanced_batch20_100.txt": {
+        "n": 100
+      }
+    }
+  },
+  "s300": {
+    "tasks": {
+      "longmem_ssp": 500,
+      "longmem_ssu": 500,
+      "longmem_ssa": 500,
+      "longmem_tr": 500
+    },
+    "batches": {
+      "s300_balanced_batch01_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch02_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch03_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch04_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch05_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch06_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch07_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch08_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch09_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch10_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch11_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch12_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch13_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch14_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch15_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch16_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch17_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch18_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch19_100.txt": {
+        "n": 100
+      },
+      "s300_balanced_batch20_100.txt": {
+        "n": 100
+      }
+    }
+  },
+  "s400": {
+    "tasks": {
+      "longmem_ssp": 500,
+      "longmem_ssu": 500,
+      "longmem_ssa": 500,
+      "longmem_tr": 500
+    },
+    "batches": {
+      "s400_balanced_batch01_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch02_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch03_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch04_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch05_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch06_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch07_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch08_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch09_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch10_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch11_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch12_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch13_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch14_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch15_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch16_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch17_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch18_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch19_100.txt": {
+        "n": 100
+      },
+      "s400_balanced_batch20_100.txt": {
+        "n": 100
+      }
+    }
+  }
+}

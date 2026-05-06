@@ -1,0 +1,84 @@
+{
+  "seed": 20260224,
+  "src_root": "${LICOMEMORY_LONGMEMEVAL_SOURCE_ROOT}",
+  "out_data_root": "${LICOMEMORY_LONGMEMEVAL_DATA_ROOT}",
+  "out_list_root": "systems/licomemory/scripts/dataset_lists/fixed2k_sbins_fixed2k_main3m_20260224_102211",
+  "types": [
+    "longmem_ssp",
+    "longmem_ssu",
+    "longmem_ssa",
+    "longmem_tr"
+  ],
+  "bins": [
+    0,
+    100,
+    200,
+    300,
+    400
+  ],
+  "anchors_per_type": 500,
+  "total_anchors": 2000,
+  "total_samples_per_bin": 2000,
+  "batch_size": 100,
+  "smoke_size": 20,
+  "anchor_task_stats": {
+    "longmem_ssp": {
+      "eligible": 15,
+      "selected": 500,
+      "unique_base_selected": 15,
+      "sampling_with_replacement": 1
+    },
+    "longmem_ssu": {
+      "eligible": 17,
+      "selected": 500,
+      "unique_base_selected": 17,
+      "sampling_with_replacement": 1
+    },
+    "longmem_ssa": {
+      "eligible": 17,
+      "selected": 500,
+      "unique_base_selected": 17,
+      "sampling_with_replacement": 1
+    },
+    "longmem_tr": {
+      "eligible": 17,
+      "selected": 500,
+      "unique_base_selected": 17,
+      "sampling_with_replacement": 1
+    }
+  },
+  "per_bin_total": {
+    "s0": 2000,
+    "s100": 2000,
+    "s200": 2000,
+    "s300": 2000,
+    "s400": 2000
+  },
+  "per_bin_task_total": {
+    "s0/longmem_ssp": 500,
+    "s0/longmem_ssu": 500,
+    "s0/longmem_ssa": 500,
+    "s0/longmem_tr": 500,
+    "s100/longmem_ssp": 500,
+    "s100/longmem_ssu": 500,
+    "s100/longmem_ssa": 500,
+    "s100/longmem_tr": 500,
+    "s200/longmem_ssp": 500,
+    "s200/longmem_ssu": 500,
+    "s200/longmem_ssa": 500,
+    "s200/longmem_tr": 500,
+    "s300/longmem_ssp": 500,
+    "s300/longmem_ssu": 500,
+    "s300/longmem_ssa": 500,
+    "s300/longmem_tr": 500,
+    "s400/longmem_ssp": 500,
+    "s400/longmem_ssu": 500,
+    "s400/longmem_ssa": 500,
+    "s400/longmem_tr": 500
+  },
+  "artifacts": {
+    "manifest": "systems/licomemory/scripts/dataset_lists/fixed2k_sbins_fixed2k_main3m_20260224_102211/manifest.jsonl",
+    "anchor_manifest": "systems/licomemory/scripts/dataset_lists/fixed2k_sbins_fixed2k_main3m_20260224_102211/anchor_manifest.jsonl",
+    "stage_manifest_dir": "systems/licomemory/scripts/dataset_lists/fixed2k_sbins_fixed2k_main3m_20260224_102211/manifest_by_stage"
+  }
+}

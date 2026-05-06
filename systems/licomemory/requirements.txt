@@ -1,0 +1,14 @@
+openai>=1.91.0,<2
+httpx
+numpy
+pandas
+PyYAML
+pydantic
+python-dotenv
+python-igraph
+networkx
+matplotlib
+sentence-transformers
+tiktoken==0.7.0
+torch==2.5.1
+tqdm
