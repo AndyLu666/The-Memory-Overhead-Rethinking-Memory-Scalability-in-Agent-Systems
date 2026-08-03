@@ -1,0 +1,28 @@
+{
+  "alpha": 0.7,
+  "bootstrap_samples": 1000,
+  "bootstrap_seed": 7,
+  "budgets": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "included_source_packages": [
+    "qwen_licomemory_longmemeval_steps6patched_20260413_package",
+    "qwen_hipporag_longmemeval_20260403_package",
+    "licomemory_locomo_20260410_package",
+    "qwen_hipporag_locomo_20260403_package",
+    "llama_licomemory_longmemeval_20260414_package"
+  ],
+  "notes": [
+    "The complete Qwen matrix is included in the main_complete scope.",
+    "The Llama LongMemEval package is also included, but 70B and 405B are partial supplementary runs.",
+    "success and llm_judge were validated to match exactly on all included rows.",
+    "All current included traces have trial=1 only, so task-average and row-average Pass@B are identical.",
+    "Per-model traces are always treated as authoritative over combined traces."
+  ],
+  "output_dir": "artifacts/reviewer3_audit/aggregates/hierarchical",
+  "row_count": 89557
+}

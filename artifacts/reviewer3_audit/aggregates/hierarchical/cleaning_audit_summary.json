@@ -1,0 +1,93 @@
+{
+  "annotated_rows_total": 89557,
+  "raw_rows_total": 89557,
+  "matched_rows_total": 89557,
+  "raw_duplicate_key_rows": 0,
+  "annotated_duplicate_key_rows": 0,
+  "missing_in_cleaned_rows": 0,
+  "extra_in_cleaned_rows": 0,
+  "field_mismatch_counts": {
+    "benchmark": 0,
+    "memory_system": 0,
+    "scope": 0,
+    "model_label": 0,
+    "task_id": 0,
+    "model": 0,
+    "memory": null,
+    "s": 0,
+    "s_label": 0,
+    "question_type": 0,
+    "retrieval_calls": 0,
+    "success": 0,
+    "f1": 0,
+    "llm_judge": 0,
+    "context_ok": 0,
+    "has_agent_output": 0,
+    "has_trace_json": 0,
+    "retrieved_sessions": 0,
+    "react_steps": 0,
+    "context_tokens": 0,
+    "response_duration_ms": 0,
+    "search_duration_ms": 0,
+    "total_duration_ms": 0,
+    "total_cost_usd": 0
+  },
+  "budget_definition_mismatch_detail": {
+    "B1": {
+      "pass_mismatch_rows": 0,
+      "budget_exhaustion_mismatch_rows": 0,
+      "wrong_within_budget_mismatch_rows": 0,
+      "failure_mode_mismatch_rows": 0
+    },
+    "B2": {
+      "pass_mismatch_rows": 0,
+      "budget_exhaustion_mismatch_rows": 0,
+      "wrong_within_budget_mismatch_rows": 0,
+      "failure_mode_mismatch_rows": 0
+    },
+    "B3": {
+      "pass_mismatch_rows": 0,
+      "budget_exhaustion_mismatch_rows": 0,
+      "wrong_within_budget_mismatch_rows": 0,
+      "failure_mode_mismatch_rows": 0
+    },
+    "B4": {
+      "pass_mismatch_rows": 0,
+      "budget_exhaustion_mismatch_rows": 0,
+      "wrong_within_budget_mismatch_rows": 0,
+      "failure_mode_mismatch_rows": 0
+    },
+    "B5": {
+      "pass_mismatch_rows": 0,
+      "budget_exhaustion_mismatch_rows": 0,
+      "wrong_within_budget_mismatch_rows": 0,
+      "failure_mode_mismatch_rows": 0
+    }
+  },
+  "budget_definition_mismatch_rows_total": 0,
+  "failure_mode_mismatch_rows_total": 0,
+  "curve_to_breakdown_mismatch_rows": 0,
+  "curve_to_main_table_mismatch_rows": 0,
+  "curve_taskavg_vs_rowavg_abs_max": 0.0,
+  "sample_size": 200,
+  "sample_all_core_match_rows": 200,
+  "sample_all_budget_match_rows": 200,
+  "sample_group_count": 71,
+  "sample_counts_by_source_package": {
+    "licomemory_locomo_20260410_package": 45,
+    "qwen_hipporag_locomo_20260403_package": 45,
+    "qwen_hipporag_longmemeval_20260403_package": 45,
+    "llama_licomemory_longmemeval_20260414_package": 33,
+    "qwen_licomemory_longmemeval_steps6patched_20260413_package": 32
+  },
+  "sample_counts_by_scope": {
+    "main_complete": 167,
+    "supplementary_partial": 33
+  },
+  "definition_notes": [
+    "Pass@B is checked as 1[success = 1 and retrieval_calls <= B].",
+    "budget_exhaustion is checked as 1[retrieval_calls > B].",
+    "wrong_within_budget is checked as 1[retrieval_calls <= B and success = 0].",
+    "LongMemEval task-level aggregation should use dataset_name rather than task_id because task_id is not unique across the 2000 stage rows."
+  ]
+}

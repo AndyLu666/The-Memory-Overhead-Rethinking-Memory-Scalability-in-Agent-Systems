@@ -1,0 +1,17 @@
+model_label,run_name,react_steps,rows,fraction
+Qwen 8B,qwen8b,1,163,0.163
+Qwen 8B,qwen8b,2,822,0.822
+Qwen 8B,qwen8b,3,15,0.015
+Qwen 32B,qwen32b,1,217,0.217
+Qwen 32B,qwen32b,2,426,0.426
+Qwen 32B,qwen32b,3,345,0.345
+Qwen 32B,qwen32b,4,3,0.003
+Qwen 32B,qwen32b,5,9,0.009
+Qwen 235B,qwen235b,1,214,0.214
+Qwen 235B,qwen235b,2,86,0.086
+Qwen 235B,qwen235b,3,532,0.532
+Qwen 235B,qwen235b,4,81,0.081
+Qwen 235B,qwen235b,5,66,0.066
+Qwen 235B,qwen235b,6,7,0.007
+Qwen 235B,qwen235b,7,12,0.012
+Qwen 235B,qwen235b,8,2,0.002

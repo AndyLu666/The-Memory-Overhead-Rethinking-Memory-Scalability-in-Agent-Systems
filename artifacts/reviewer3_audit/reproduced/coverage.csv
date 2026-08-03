@@ -1,0 +1,29 @@
+record_set,benchmark,memory_system,scope,model_label,rows
+additional_interfaces,LongMemEval,Mem0,additional_interface_coverage,Qwen 235B,2500
+additional_interfaces,LongMemEval,Mem0,additional_interface_coverage,Qwen 32B,2500
+additional_interfaces,LongMemEval,Mem0,additional_interface_coverage,Qwen 8B,2500
+additional_interfaces,LongMemEval,MemOS-Tree,additional_interface_coverage,Qwen 235B,2500
+additional_interfaces,LongMemEval,MemOS-Tree,additional_interface_coverage,Qwen 32B,2500
+additional_interfaces,LongMemEval,MemOS-Tree,additional_interface_coverage,Qwen 8B,2500
+additional_interfaces,LongMemEval,MemOS-text,additional_interface_coverage,Qwen 235B,2500
+additional_interfaces,LongMemEval,MemOS-text,additional_interface_coverage,Qwen 32B,2500
+additional_interfaces,LongMemEval,MemOS-text,additional_interface_coverage,Qwen 8B,2500
+hierarchical,LoCoMo,HippoRAG,main_complete,Qwen 235B,1410
+hierarchical,LoCoMo,HippoRAG,main_complete,Qwen 32B,1410
+hierarchical,LoCoMo,HippoRAG,main_complete,Qwen 8B,1410
+hierarchical,LoCoMo,LiCoMemory,main_complete,Qwen 235B,1410
+hierarchical,LoCoMo,LiCoMemory,main_complete,Qwen 32B,1410
+hierarchical,LoCoMo,LiCoMemory,main_complete,Qwen 8B,1410
+hierarchical,LongMemEval,HippoRAG,main_complete,Qwen 235B,10000
+hierarchical,LongMemEval,HippoRAG,main_complete,Qwen 32B,10000
+hierarchical,LongMemEval,HippoRAG,main_complete,Qwen 8B,10000
+hierarchical,LongMemEval,LiCoMemory,main_complete,Qwen 235B,10000
+hierarchical,LongMemEval,LiCoMemory,main_complete,Qwen 32B,10000
+hierarchical,LongMemEval,LiCoMemory,main_complete,Qwen 8B,10000
+hierarchical,LongMemEval,LiCoMemory,supplementary_partial,Llama 405B,1830
+hierarchical,LongMemEval,LiCoMemory,supplementary_partial,Llama 70B,9267
+hierarchical,LongMemEval,LiCoMemory,supplementary_partial,Llama 8B,10000
+openclaw,LongMemEval,OpenClaw,additional_interface_coverage,Qwen 235B,1000
+openclaw,LongMemEval,OpenClaw,additional_interface_coverage,Qwen 32B,1000
+openclaw,LongMemEval,OpenClaw,additional_interface_coverage,Qwen 8B,1000
+supplementary_gpt_locomo,LoCoMo,LiCoMemory,supplementary_model,GPT-5-mini,1410

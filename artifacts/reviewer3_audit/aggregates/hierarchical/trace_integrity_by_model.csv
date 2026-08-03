@@ -1,0 +1,16 @@
+source_package,scope,benchmark,memory_system,model_label,row_count,expected_rows_per_model,coverage_ratio,run_status,unique_s_labels,trial_values,retrieval_calls_min,retrieval_calls_max,react_steps_min,react_steps_max,react_minus_retrieval_values,react_lt_retrieval_rows,context_ok_zero_rows,missing_context_ok_rows,missing_agent_output_rows,missing_trace_json_rows,negative_duration_rows,nonzero_f1_rows
+licomemory_locomo_20260410_package,main_complete,LoCoMo,LiCoMemory,Qwen 235B,1410,1410,1.0,complete,"s0,s100,s200,s300,s400",1,1,5,2,6,1,0,0,0,0,0,0,0
+licomemory_locomo_20260410_package,main_complete,LoCoMo,LiCoMemory,Qwen 32B,1410,1410,1.0,complete,"s0,s100,s200,s300,s400",1,1,5,2,6,1,0,0,0,0,0,0,0
+licomemory_locomo_20260410_package,main_complete,LoCoMo,LiCoMemory,Qwen 8B,1410,1410,1.0,complete,"s0,s100,s200,s300,s400",1,1,5,2,6,1,0,0,0,0,0,0,0
+llama_licomemory_longmemeval_20260414_package,supplementary_partial,LongMemEval,LiCoMemory,Llama 405B,1830,10000,0.183,partial,s0,1,1,5,2,6,1,0,0,0,0,0,0,0
+llama_licomemory_longmemeval_20260414_package,supplementary_partial,LongMemEval,LiCoMemory,Llama 70B,9267,10000,0.9267,partial,"s0,s100,s200,s300,s400",1,1,5,2,6,1,0,0,0,0,0,0,0
+llama_licomemory_longmemeval_20260414_package,supplementary_partial,LongMemEval,LiCoMemory,Llama 8B,10000,10000,1.0,complete,"s0,s100,s200,s300,s400",1,1,5,2,6,1,0,0,0,0,0,0,0
+qwen_hipporag_locomo_20260403_package,main_complete,LoCoMo,HippoRAG,Qwen 235B,1410,1410,1.0,complete,"s0,s100,s200,s300,s400",1,1,1,2,2,1,0,0,0,0,0,0,1077
+qwen_hipporag_locomo_20260403_package,main_complete,LoCoMo,HippoRAG,Qwen 32B,1410,1410,1.0,complete,"s0,s100,s200,s300,s400",1,1,1,2,2,1,0,0,0,0,0,0,1052
+qwen_hipporag_locomo_20260403_package,main_complete,LoCoMo,HippoRAG,Qwen 8B,1410,1410,1.0,complete,"s0,s100,s200,s300,s400",1,1,1,2,2,1,0,0,0,0,0,0,1042
+qwen_hipporag_longmemeval_20260403_package,main_complete,LongMemEval,HippoRAG,Qwen 235B,10000,10000,1.0,complete,"s0,s100,s200,s300,s400",1,1,1,2,2,1,0,0,0,0,0,0,8487
+qwen_hipporag_longmemeval_20260403_package,main_complete,LongMemEval,HippoRAG,Qwen 32B,10000,10000,1.0,complete,"s0,s100,s200,s300,s400",1,1,1,2,2,1,0,0,0,0,0,0,8661
+qwen_hipporag_longmemeval_20260403_package,main_complete,LongMemEval,HippoRAG,Qwen 8B,10000,10000,1.0,complete,"s0,s100,s200,s300,s400",1,1,1,2,2,1,0,0,0,0,0,0,7890
+qwen_licomemory_longmemeval_steps6patched_20260413_package,main_complete,LongMemEval,LiCoMemory,Qwen 235B,10000,10000,1.0,complete,"s0,s100,s200,s300,s400",1,0,5,1,6,1,0,69,0,0,0,0,0
+qwen_licomemory_longmemeval_steps6patched_20260413_package,main_complete,LongMemEval,LiCoMemory,Qwen 32B,10000,10000,1.0,complete,"s0,s100,s200,s300,s400",1,1,5,2,6,1,0,0,0,0,0,0,0
+qwen_licomemory_longmemeval_steps6patched_20260413_package,main_complete,LongMemEval,LiCoMemory,Qwen 8B,10000,10000,1.0,complete,"s0,s100,s200,s300,s400",1,0,5,1,6,1,0,446,0,0,0,0,0

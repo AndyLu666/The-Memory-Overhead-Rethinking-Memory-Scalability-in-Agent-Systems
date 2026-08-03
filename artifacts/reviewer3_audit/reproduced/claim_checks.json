@@ -1,0 +1,72 @@
+{
+  "additional_interface_examples_s400_b2": {
+    "mem0_qwen32b_p_exh_pct": 83.6,
+    "mem0_qwen8b_p_wrong_pct": 85.6
+  },
+  "additional_interface_recovery_s400_b2_to_b6_pct_points": {
+    "Mem0": {
+      "Qwen 235B": 25.0,
+      "Qwen 32B": 12.6,
+      "Qwen 8B": 0.0
+    },
+    "MemOS-Tree": {
+      "Qwen 235B": 11.2,
+      "Qwen 32B": 0.0,
+      "Qwen 8B": 0.2
+    },
+    "MemOS-text": {
+      "Qwen 235B": 31.8,
+      "Qwen 32B": 3.2,
+      "Qwen 8B": 0.0
+    }
+  },
+  "benchmark_system_coverage": {
+    "LoCoMo": [
+      "HippoRAG",
+      "LiCoMemory"
+    ],
+    "LongMemEval": [
+      "HippoRAG",
+      "LiCoMemory",
+      "Mem0",
+      "MemOS-Tree",
+      "MemOS-text",
+      "OpenClaw"
+    ]
+  },
+  "decision_reversal_longmemeval_qwen8b_s400": {
+    "hipporag_pass_at_2_pct": 58.15,
+    "hipporag_unbudgeted_success_pct": 58.15,
+    "licomemory_pass_at_2_pct": 52.2,
+    "licomemory_pass_at_5_pct": 63.1,
+    "licomemory_unbudgeted_success_pct": 63.1
+  },
+  "locomo_licomemory_qwen8b": {
+    "s0": {
+      "budget_exhausted_count": 259,
+      "n": 282,
+      "p90_calls": 5.0,
+      "p_exh_pct": 91.84,
+      "p_wrong_pct": 1.06,
+      "pass_at_2_count": 20,
+      "pass_at_2_pct": 7.09,
+      "unbudgeted_success_count": 117,
+      "unbudgeted_success_pct": 41.49,
+      "wrong_within_budget_count": 3
+    },
+    "s400": {
+      "budget_exhausted_count": 265,
+      "n": 282,
+      "p90_calls": 5.0,
+      "p_exh_pct": 93.97,
+      "p_wrong_pct": 0.35,
+      "pass_at_2_count": 16,
+      "pass_at_2_pct": 5.67,
+      "unbudgeted_success_count": 117,
+      "unbudgeted_success_pct": 41.49,
+      "wrong_within_budget_count": 1
+    }
+  },
+  "rows_with_separately_retained_judge_field": 93967,
+  "total_trajectory_rows": 116467
+}

@@ -1,0 +1,4 @@
+model_label,run_name,rows,success_rate,llm_judge_rate,f1_mean,retrieval_calls_mean,retrieved_sessions_mean,react_steps_mean,context_tokens_mean,total_cost_usd_sum,total_cost_usd_mean,response_duration_ms_mean,search_duration_ms_mean,total_duration_ms_mean
+Qwen 8B,qwen8b,1000,0.509,0.509,0.13971543,0.837,0.0,1.852,1668.033,0.306916,0.000306916,7537.391614,7688.13357,15225.525184
+Qwen 32B,qwen32b,1000,0.605,0.605,0.147670515,0.796,0.0,2.161,1795.075,0.298099,0.000298099,12925.578988,6580.801228,19506.380216
+Qwen 235B,qwen235b,1000,0.564,0.564,0.143593072,0.939,0.0,2.778,2136.611,0.305374,0.000305374,11915.523408,8012.137573,19927.660981

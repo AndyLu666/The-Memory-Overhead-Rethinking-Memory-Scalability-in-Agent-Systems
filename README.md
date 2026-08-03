@@ -66,9 +66,23 @@ The repository includes the code needed to:
 - reproduce trace files and per-item outputs,
 - inspect and validate benchmark contracts.
 
-The repository does not include benchmark data dumps or final result packages.
-Reviewers should place benchmark datasets locally and point the configs or CLI
-flags at those dataset roots.
+## Result and Reviewer Audit Data
+
+The repository now also includes the trajectory-level result artifact used to
+audit the paper and author-response analyses:
+
+- [Reviewer 3 trajectory audit](artifacts/reviewer3_audit/README.md)
+
+It contains the row-level evaluator outcomes and agent-visible memory-call counts
+needed to recompute the reported `Pass@B`, failure decomposition, retrieval
+tails, budget curves, decision-reversal example, and LoCoMo diagnosis. It also
+includes the 22,500 MemOS-text, Mem0, and MemOS-Tree records requested during
+review, plus OpenClaw and the complete primary HippoRAG/LiCoMemory matrices.
+
+The repository does not redistribute benchmark conversation dumps or retrieved
+contexts. Reviewers who rerun model execution should place benchmark datasets
+locally and point the configs or CLI flags at those roots. Numerical results can
+be audited directly from the public trajectory tables without those text dumps.
 
 ## Baseline Setup
 

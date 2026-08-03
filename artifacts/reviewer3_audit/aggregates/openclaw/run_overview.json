@@ -1,0 +1,76 @@
+{
+  "benchmark": "LongMemEval fixed2k balanced50x4x5",
+  "expected_items_per_model": 1000,
+  "memory_system": {
+    "agent_mode": "memory_tools",
+    "backend": "official",
+    "candidate_multiplier": 4,
+    "chunk_overlap": 80,
+    "chunk_tokens": 400,
+    "enable_mmr": false,
+    "enable_temporal_decay": false,
+    "fidelity_profile_notes": {
+      "extra_benchmark_hints": false,
+      "force_first_memory_search": false,
+      "rewrite_memory_search_payload": false,
+      "searchable_highlights": false,
+      "tool_choice_first_step": "auto"
+    },
+    "label": "OpenClawOfficialMemory",
+    "max_agent_steps": 6,
+    "memory_agent_profile": "openclaw_fidelity",
+    "memory_type": "document-based memory",
+    "min_score": 0.0,
+    "sources": [
+      "memory"
+    ],
+    "text_weight": 0.3,
+    "tool_loop": "ReAct-style memory_search/memory_get loop",
+    "top_k": 6,
+    "vector_weight": 0.7
+  },
+  "models": [
+    {
+      "completed": 1000,
+      "failed": 0,
+      "label": "Qwen 8B",
+      "retrieval_calls_max": 1,
+      "retrieval_calls_mean": 0.837,
+      "slug": "qwen8b",
+      "success_rate": 0.509
+    },
+    {
+      "completed": 1000,
+      "failed": 0,
+      "label": "Qwen 32B",
+      "retrieval_calls_max": 2,
+      "retrieval_calls_mean": 0.796,
+      "slug": "qwen32b",
+      "success_rate": 0.605
+    },
+    {
+      "completed": 1000,
+      "failed": 0,
+      "label": "Qwen 235B",
+      "retrieval_calls_max": 5,
+      "retrieval_calls_mean": 0.939,
+      "slug": "qwen235b",
+      "success_rate": 0.564
+    }
+  ],
+  "models_and_services": {
+    "embedding_model": "text-embedding-3-small",
+    "embedding_provider": "OpenAI-compatible OTHER API via OTHER_API_KEY env var",
+    "judge_model": "gpt-4o-mini",
+    "judge_num_runs": 3,
+    "judge_prompt_style": "memos_json",
+    "judge_provider": "OpenAI-compatible OTHER API via OTHER_API_KEY env var",
+    "q1_chat_models": {
+      "qwen235b": "qwen3-235b-a22b-instruct-2507",
+      "qwen32b": "qwen3-32b",
+      "qwen8b": "qwen3-8b"
+    },
+    "q1_chat_provider": "DashScope OpenAI-compatible API via QWEN_API_KEY env var"
+  },
+  "trace_authority": "Per-model CSV traces in 01_traces are authoritative; combined trace is a convenience append."
+}

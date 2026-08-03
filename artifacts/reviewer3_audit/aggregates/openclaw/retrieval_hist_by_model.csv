@@ -1,0 +1,12 @@
+model_label,run_name,retrieval_calls,rows,fraction
+Qwen 8B,qwen8b,0,163,0.163
+Qwen 8B,qwen8b,1,837,0.837
+Qwen 32B,qwen32b,0,217,0.217
+Qwen 32B,qwen32b,1,770,0.77
+Qwen 32B,qwen32b,2,13,0.013
+Qwen 235B,qwen235b,0,214,0.214
+Qwen 235B,qwen235b,1,679,0.679
+Qwen 235B,qwen235b,2,66,0.066
+Qwen 235B,qwen235b,3,37,0.037
+Qwen 235B,qwen235b,4,3,0.003
+Qwen 235B,qwen235b,5,1,0.001
